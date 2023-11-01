@@ -1,0 +1,24 @@
+{
+  "name": "potisen",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "NODE_OPTIONS": "--openssl-legacy-provider"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "swiper": "^5.4.5",
+    "v-owl-carousel": "^1.0.8",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-count-to": "^1.0.13",
+    "vue-observe-visibility": "^1.0.0",
+    "vue-typed-js": "^0.1.2",
+    "vuejs-countdown": "^0.2.1"
+  },
+  "devDependencies": {}
+}
