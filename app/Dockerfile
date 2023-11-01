@@ -3,12 +3,14 @@ FROM node:18
 WORKDIR /app
 
 COPY package*.json ./
+COPY . ./
 
+RUN npm cache clean --force
 RUN npm install
-
-COPY ./ ./app
+RUN npm run build
 
 EXPOSE 80
 
-RUN npm run build
-CMD [ "npm", "run", "start" ]
+
+ENTRYPOINT ["npm", "start"]
+#ENTRYPOINT ["cd .nuxt"]
