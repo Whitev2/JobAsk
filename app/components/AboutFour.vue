@@ -11,15 +11,15 @@
             </div><!-- /.block-title -->
             <ul class="list-unstyled about-four__list">
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Консультируем и проверяем документы.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Бронируем авиабилеты и отель.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Заполняем все документы, в соответсвии с требованиями посольства.
               </li>
 
@@ -30,7 +30,7 @@
           <div class="row low-gutters">
             <div class="col-md-6 wow fadeInUp" data-wow-duration="1500ms">
               <div class="about-four__image">
-                <img src="assets/images/visa_2.jpg" class="img-fluid" alt="Виза"/>
+                <img src="/app/assets/images/visa_2.jpg" class="img-fluid" alt="Виза"/>
               </div><!-- /.about-four__image -->
             </div><!-- /.col-md-6 -->
             <div class="col-md-6">
@@ -61,23 +61,23 @@
             <ul class="list-unstyled about-four__list">
 
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Консультируем и проверяем документы.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Находим работодателя.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Готовим приглашение на работу, страховку.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Бронируем авиабилеты и отель.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Заполняем все документы, в соответсвии с требованиями посольства.
               </li>
 
@@ -88,7 +88,7 @@
           <div class="row low-gutters">
             <div class="col-md-6 wow fadeInUp" data-wow-duration="1500ms">
               <div class="about-four__image">
-                <img src="assets/images/visa_2.jpg" class="img-fluid" alt="Виза"/>
+                <img src="/app/assets/images/visa_2.jpg" class="img-fluid" alt="Виза"/>
               </div><!-- /.about-four__image -->
             </div><!-- /.col-md-6 -->
             <div class="col-md-6">
@@ -119,19 +119,19 @@
             <ul class="list-unstyled about-four__list">
 
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Консультируем и проверяем документы.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Бронируем авиабилеты и отель.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app//assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Заполняем все документы, в соответсвии с требованиями посольства.
               </li>
               <li>
-                <img src="assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
+                <img src="/app/assets/images/resources/menu-active-star.png" alt="Awesome Image"/>
                 Записываем в посольство.
               </li>
 
@@ -142,7 +142,7 @@
           <div class="row low-gutters">
             <div class="col-md-6 wow fadeInUp" data-wow-duration="1500ms">
               <div class="about-four__image">
-                <img src="assets/images/visa_2.jpg" class="img-fluid" alt="Виза"/>
+                <img src="/app/assets/images/visa_2.jpg" class="img-fluid" alt="Виза"/>
               </div><!-- /.about-four__image -->
             </div><!-- /.col-md-6 -->
             <div class="col-md-6">

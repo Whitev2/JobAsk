@@ -5,7 +5,7 @@
       <h2 class="inner-banner__title">{{ title }}</h2><!-- /.inner-banner__title -->
       <ul class="list-unstyled thm-breadcrumb">
         <li>
-          <nuxt-link to="/">Home</nuxt-link>
+          <nuxt-link to="/">Главная</nuxt-link>
         </li>
         <li>{{ title }}</li>
       </ul><!-- /.list-unstyled -->

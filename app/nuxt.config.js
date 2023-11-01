@@ -1,5 +1,10 @@
 export default {
 
+  server: {
+    host: '0',
+    port: '80' // default: localhost
+  },
+
   generate: {
     fallback: true
   },

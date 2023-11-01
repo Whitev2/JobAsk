@@ -11,9 +11,9 @@
 <script>
   import NavOne from "../components/NavOne.vue"
   import Faq from "../components/Faq.vue"
-  import PageHeader from "../components/PageHeader";
-  import Donation from "../components/Donation";
-  import Footer from "../components/Footer";
+  import PageHeader from "../components/PageHeader.vue";
+  import Donation from "../components/Donation.vue";
+  import Footer from "../components/Footer.vue";
   export default {
     components: {
       NavOne,

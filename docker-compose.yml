@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+
+  frontend:
+    build: ./app
+    volumes:
+      - './app:/app'
+    ports:
+      - "80:80"

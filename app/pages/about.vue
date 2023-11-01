@@ -14,15 +14,15 @@
 
 
 <script>
-  import NavOne from "../components/NavOne";
-  import PageHeader from "../components/PageHeader";
-  import Footer from "../components/Footer";
-  import AboutOne from "../components/AboutOne";
-  import CallToActionTwo from "../components/CallToActionTwo";
-  import AboutTwo from "../components/AboutTwo";
-  import TestimonialOne from "../components/TestimonialOne";
-  import TeamOne from "../components/TeamOne";
-  import CallToActionOne from "../components/CallToActionOne";
+  import NavOne from "../components/NavOne.vue";
+  import PageHeader from "../components/PageHeader.vue";
+  import Footer from "../components/Footer.vue";
+  import AboutOne from "../components/AboutOne.vue";
+  import CallToActionTwo from "../components/CallToActionTwo.vue";
+  import AboutTwo from "../components/AboutTwo.vue";
+  import TestimonialOne from "../components/TestimonialOne.vue";
+  import TeamOne from "../components/TeamOne.vue";
+  import CallToActionOne from "../components/CallToActionOne.vue";
   export default {
     components: {
       AboutOne,

@@ -28,7 +28,7 @@
               </div>
               <div class="input-box">
                 <input v-model="email" type="text" placeholder="Введите email"/>
-                <p class="item__error">
+                <p class="item__error" >
                   {{ emailError }}
                 </p>
               </div>
@@ -39,7 +39,7 @@
                 <textarea v-model="question" placeholder="Интересующая вас услуга или вопрос"></textarea>
               </div>
               <div class="button">
-                <input @click="modalValidation" value="Отправить"/>
+                <input type="submit" @click="modalValidation"/>
               </div>
             </div>
           </div>
@@ -67,16 +67,20 @@ export default {
       if (this.emailError.length === 0) {
         //тут делаем отправку на сервер
         console.log(this.name)
+        console.log(this.email)
       }
-    }
-  },
-  emailValidation() {
-    if (!this.regexValidation(/^([\wА-я.-]+)@([\w.-]+)\.([A-z]{1,10})$/, this.email)) {
-      this.emailError = 'Недопустимый email'
-      return false
-    }
-    this.emailError = ''
-    return true
+    },
+    regexValidation(re, str) {
+      return re.test(str)
+    },
+    emailValidation() {
+      if (!this.regexValidation(/^([\wА-я.-]+)@([\w.-]+)\.([A-z]{1,10})$/, this.email)) {
+        this.emailError = 'Недопустимый email'
+        return false
+      }
+      this.emailError = ''
+      return true
+    },
   },
 }
 </script>
@@ -159,7 +163,7 @@ body {
 .input-box {
   height: 50px; /* по сути задаем высоту input'а */
   width: 100%; /* ширина на всю ширину правой колонки (с учетом padding) */
-  margin-bottom: 20px; /* отступаем снизу 20px */
+  margin-bottom: 40px; /* отступаем снизу 20px */
 }
 
 /* Стили для input и textarea (поле сообщение) */
@@ -242,6 +246,10 @@ body {
     width: 100%;
     margin-left: 0;
   }
+}
+
+.item__error {
+  color: #b02500;
 }
 
 </style>

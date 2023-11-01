@@ -20,7 +20,7 @@
                         <i class="fa fa-play"></i>
                       </a>
                       <span class="testimonials-two__btn-tag-line">Watch Campaigns <img
-                        src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
+                          src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
                     </div><!-- /.testimonials-two__btn-wrap -->
                   </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->
@@ -44,7 +44,7 @@
                         <i class="fa fa-play"></i>
                       </a>
                       <span class="testimonials-two__btn-tag-line">Watch Campaigns <img
-                        src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
+                          src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
                     </div><!-- /.testimonials-two__btn-wrap -->
                   </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->
@@ -68,7 +68,7 @@
                         <i class="fa fa-play"></i>
                       </a>
                       <span class="testimonials-two__btn-tag-line">Watch Campaigns <img
-                        src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
+                          src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
                     </div><!-- /.testimonials-two__btn-wrap -->
                   </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->
@@ -92,7 +92,7 @@
                         <i class="fa fa-play"></i>
                       </a>
                       <span class="testimonials-two__btn-tag-line">Watch Campaigns <img
-                        src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
+                          src="/assets/images/resources/video-arrow.png" alt="Awesome Image"/></span>
                     </div><!-- /.testimonials-two__btn-wrap -->
                   </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->

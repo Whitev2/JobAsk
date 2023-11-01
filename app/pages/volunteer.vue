@@ -10,11 +10,11 @@
 
 
 <script>
-  import NavTwo from "../components/NavTwo";
-  import PageHeader from "../components/PageHeader";
-  import Volunteer from "../components/Volunteer";
-  import CallToActionOne from "../components/CallToActionOne";
-  import Footer from "../components/Footer";
+  import NavTwo from "../components/NavTwo.vue";
+  import PageHeader from "../components/PageHeader.vue";
+  import Volunteer from "../components/Volunteer.vue";
+  import CallToActionOne from "../components/CallToActionOne.vue";
+  import Footer from "../components/Footer.vue";
   export default {
     components: {
       NavTwo,

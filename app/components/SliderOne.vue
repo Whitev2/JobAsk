@@ -1,7 +1,7 @@
 <template>
   <section class="static-banner-one">
     <div class="static-banner-one__bg">
-      <div class="static-banner-one__bg-inner" style="background-image: url(assets/images/background/inner-banner-bg.jpg);"></div><!-- /.static-banner-one__bg-inner -->
+      <div class="static-banner-one__bg-inner" style="background-image: url(../assets/images/background/inner-banner-bg.jpg);"></div><!-- /.static-banner-one__bg-inner -->
     </div><!-- /.static-banner-one__bg -->
     <div class="container">
       <vue-typed-js :loop="true" :strings="['Ждет', 'Нанимает', 'Приглашает']">

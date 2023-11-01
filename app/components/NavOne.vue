@@ -56,9 +56,9 @@
                 </ul><!-- /.sub-menu -->
               </li>
 
-              <li>
-                <nuxt-link to="/about">О нас</nuxt-link>
-              </li>
+<!--              <li>-->
+<!--                <nuxt-link to="/about">О нас</nuxt-link>-->
+<!--              </li>-->
 
               <li>
                 <nuxt-link to="/contact">Контакты</nuxt-link>
