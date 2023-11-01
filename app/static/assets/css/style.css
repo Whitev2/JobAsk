@@ -794,13 +794,13 @@ h6 {
             bottom: -5px; } }
   .static-banner-one__text {
     margin: 0;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 500;
     color: #a6b3d0;
     margin-top: 30px; }
     @media (max-width: 375px) {
       .static-banner-one__text {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 1.2em; } }
   .static-banner-one__form {
     margin-top: 20px; }
