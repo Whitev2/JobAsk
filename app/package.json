@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "export NODE_OPTIONS=--openssl-legacy-provider && nuxt dev",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider && nuxt build",
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && nuxt start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && node_modules/nuxt/bin/nuxt.js build -c ./nuxt.config.js",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && node_modules/nuxt/bin/nuxt.js start -c ./nuxt.config.js",
     "generate": "nuxt generate"
   },
   "dependencies": {
