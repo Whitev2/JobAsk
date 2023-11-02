@@ -2,7 +2,7 @@
   <section class="contact-form-one faq-page">
     <div class="container">
       <!-- Контейнер выравнивает по ширине и по центру -->
-      <div class="container_form">
+      <div class="container_form" id="faq">
 
         <!-- content содержит содержимое формы -->
         <div class="content">

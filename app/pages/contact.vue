@@ -25,7 +25,7 @@
     },
     head(){
       return {
-        title: "Potisen | Contact"
+        title: "JobAsk | Контакты"
       }
     }
   }

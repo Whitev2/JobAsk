@@ -41,7 +41,7 @@
                 </div><!-- /.about-four__box-top -->
                 <p class="about-four__box-text">Именно поэтому собрали всю информацию косательно виз в одном месте.</p>
                 <!-- /.about-four__box-text -->
-                <a href="#" class="thm-btn about-four__btn">Узнать больше</a>
+                <a href="#faq" class="thm-btn about-four__btn">Узнать больше</a>
               </div><!-- /.about-four__box -->
             </div><!-- /.col-md-6 -->
           </div><!-- /.row low-gutters -->
@@ -99,7 +99,7 @@
                 </div><!-- /.about-four__box-top -->
                 <p class="about-four__box-text">Узнайте подробности про рабочую визу, список необходимых документов, условия и стоимость.</p>
                 <!-- /.about-four__box-text -->
-                <a href="#" class="thm-btn about-four__btn">Узнать больше</a>
+                <a href="#faq" class="thm-btn about-four__btn">Узнать больше</a>
               </div><!-- /.about-four__box -->
             </div><!-- /.col-md-6 -->
           </div><!-- /.row low-gutters -->
@@ -153,7 +153,7 @@
                 </div><!-- /.about-four__box-top -->
                 <p class="about-four__box-text">Узнайте подробности вид на жительство в Европе, список необходимых документов, условия и стоимость.</p>
                 <!-- /.about-four__box-text -->
-                <a href="#" class="thm-btn about-four__btn">Узнать больше</a>
+                <a href="#faq" class="thm-btn about-four__btn">Узнать больше</a>
               </div><!-- /.about-four__box -->
             </div><!-- /.col-md-6 -->
           </div><!-- /.row low-gutters -->

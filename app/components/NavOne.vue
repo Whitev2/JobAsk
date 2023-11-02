@@ -1,26 +1,13 @@
 <template>
   <div>
-    <div class="topbar-one">
-      <div class="container">
-        <div class="inner-container">
-          <div class="topbar-one__left">
-            <a href="mailto:needhelp@potisen.com">needhelp@potisen.com</a>
-            <a href="tel:666-888-0000">666 888 0000</a>
-          </div><!-- /.topbar-one__left -->
-          <div class="topbar-one__right">
-            <nuxt-link to="/donation"><i class="fa fa-money"></i> Donate Now</nuxt-link>
-            <nuxt-link to="/volunteer"><i class="fa fa-user-o"></i>Join Us</nuxt-link>
-          </div><!-- /.topbar-one__right -->
-        </div><!-- /.inner-container -->
-      </div><!-- /.container -->
-    </div><!-- /.topbar-one -->
+
     <header class="site-header site-header__header-one ">
       <nav :class="`navbar navbar-expand-lg navbar-light header-navigation stricky ${sticky ? 'stricked-menu stricky-fixed' : ''}`">
         <div class="container clearfix">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="logo-box clearfix">
             <nuxt-link class="navbar-brand" to="/">
-              <img src="/assets/images/logo-dark-ja.PNG" class="main-logo" width="177" alt="Awesome Image"/>
+              <img src="/assets/images/logo-dark-ja.PNG" class="main-logo" width="80" alt="Awesome Image"/>
             </nuxt-link>
             <button @click="mobileToggle = !mobileToggle" class="menu-toggler" data-target=".main-navigation">
               <span class="fa fa-bars"></span>
@@ -46,14 +33,14 @@
               </li>
               <li>
                 <nuxt-link to="/work">Работа</nuxt-link>
-                <ul class="sub-menu">
-                  <li>
-                    <nuxt-link to="/work">Вакансии</nuxt-link>
-                  </li>
-                  <li>
-                    <nuxt-link to="/work">Условия</nuxt-link>
-                  </li>
-                </ul><!-- /.sub-menu -->
+<!--                <ul class="sub-menu">-->
+<!--                  <li>-->
+<!--                    <nuxt-link to="/work">Вакансии</nuxt-link>-->
+<!--                  </li>-->
+<!--                  <li>-->
+<!--                    <nuxt-link to="/work">Условия</nuxt-link>-->
+<!--                  </li>-->
+<!--                </ul>&lt;!&ndash; /.sub-menu &ndash;&gt;-->
               </li>
 
 <!--              <li>-->

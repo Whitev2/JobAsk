@@ -24,7 +24,7 @@
     },
     head(){
       return {
-        title: "ВНЖ"
+        title: "JobAsk | Контакты"
       }
     }
   }

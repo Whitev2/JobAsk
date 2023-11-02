@@ -37,7 +37,7 @@
     },
     head(){
       return {
-        title: "Potisen | About"
+        title: "JobAsk | О нас"
       }
     }
   }

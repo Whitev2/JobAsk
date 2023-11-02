@@ -22,6 +22,11 @@
       SliderOne,
       Footer,
       AboutFour
+    },
+    head(){
+      return {
+        title: "JobAsk | Главная"
+      }
     }
   }
 </script>

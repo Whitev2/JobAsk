@@ -1,9 +1,7 @@
 <template>
   <div>
     <footer class="site-footer">
-      <div class="site-footer__logo text-center">
-        <nuxt-link to="/"><img src="/assets/images/logo-light.png" alt="" width="174"></nuxt-link>
-      </div><!-- /.site-footer__logo -->
+
       <div class="site-footer__upper">
         <div class="container">
           <div class="row">
@@ -23,10 +21,10 @@
               <div class="footer-widget footer-widget__links">
                 <h3 class="footer-widget__title">Поиск</h3><!-- /.footer-widget__title -->
                 <ul class="list-unstyled footer-widget__links-list">
-                  <li><a href="#">Главная</a></li>
-                  <li><a href="#">ВНЖ</a></li>
-                  <li><a href="#">Работа</a></li>
-                  <li><a href="#">Контакты</a></li>
+                  <li><a href="/">Главная</a></li>
+                  <li><a href="/resident">ВНЖ</a></li>
+                  <li><a href="/work">Работа</a></li>
+                  <li><a href="/contact">Контакты</a></li>
                 </ul><!-- /.list-unstyled footer-widget__links-list -->
               </div><!-- /.footer-widget -->
             </div><!-- /.col-lg-3 -->
