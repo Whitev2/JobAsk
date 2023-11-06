@@ -2,8 +2,40 @@ version: '3.3'
 
 services:
 
-  frontend:
-    build: ./app
-
+  db:
+    image: postgres:15.1
+    container_name: JobAsk_db
     ports:
-      - "80:80"
+      - "5432:5432"
+    env_file: backend/.env
+
+
+  redis:
+    image: redis:7.0.4
+    container_name: JobAsk_cache
+    env_file: backend/.env
+    ports:
+      - "6379:6379"
+
+  backend:
+    build: ./backend
+    depends_on:
+      - db
+      - redis
+    env_file: backend/.env
+    ports:
+      - "3030:3030"
+
+#  frontend:
+#    build: ./app
+#    depends_on:
+#      - redis
+#
+#    ports:
+#      - "80:80"
+
+
+networks:
+  job_net:
+    driver: bridge
+
